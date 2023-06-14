@@ -7,6 +7,7 @@ public class DemoTest1
 {
 public static void main(String[] args)
 {
+	//this is demo 
 	System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 	System.out.println("property set");//TestNG_POM/driver/chromedriver.exe
 	RemoteWebDriver driver=new ChromeDriver();
