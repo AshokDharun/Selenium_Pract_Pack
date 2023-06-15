@@ -14,7 +14,7 @@ public class GoogleTest  extends  SeleniumBase
 void searchLetcode() throws InterruptedException
 {
 	setup(Broswers.CHROME,"https://www.google.com/");
-	WebElement search=ele(Locaters.name,"q");
+	WebElement search=ele(Locaters.name,"q");//lcater is enum
 	type(search, "code with cowsick",Keys.ENTER);//type(ele("name", "p"),"code with cowsic")
 	Thread.sleep(3000);
 	quit();
